@@ -4,11 +4,11 @@
 This project simulates **enterprise IT Service Management (ITSM) incident data** to analyze **SLA compliance, resolution efficiency, and operational performance**.  
 The analysis mirrors how Business Analysts work with **ServiceNow incident data** to support IT leadership decisions.
 
-The project is built entirely using **Python, SQL, and data visualization**, and is designed to reflect **real corporate workflows**, not academic or sales-focused datasets.
+The project is built entirely using **Python, SQL, and data visualization**, and is designed to reflect **real corporate workflows**.
 
 ---
 
-## 🎯 Business Objective
+## Business Objective
 IT leadership wants to understand:
 - Are incidents being resolved within SLA?
 - Which priorities and categories cause the most delays?
@@ -36,7 +36,7 @@ This project simulates the **ServiceNow `incident` table** and reproduces common
 
 ---
 
-## 🧠 Key Business KPIs Analyzed
+## Key Business KPIs Analyzed
 - **SLA Compliance Rate**
 - **SLA Breach Percentage**
 - **Mean Time to Resolution (MTTR)**
@@ -45,7 +45,7 @@ This project simulates the **ServiceNow `incident` table** and reproduces common
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 - **Python** (pandas, numpy)
 - **SQL** (SQLite – in-memory database)
 - **Seaborn & Matplotlib** (business-focused visualizations)
@@ -53,7 +53,7 @@ This project simulates the **ServiceNow `incident` table** and reproduces common
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 The dataset is **synthetically generated** but follows **realistic enterprise distributions**.
 
 | Field | Description |
@@ -68,7 +68,7 @@ The dataset is **synthetically generated** but follows **realistic enterprise di
 
 ---
 
-## 🔍 Analysis Performed
+## Analysis Performed
 1. **SLA breach rate by priority**
 2. **MTTR by incident category**
 3. **Incident workload by support team**
@@ -77,18 +77,14 @@ The dataset is **synthetically generated** but follows **realistic enterprise di
 
 ---
 
-## 📈 Sample Insights
+## Sample Insights
 - P1 incidents show the **highest SLA breach rate**, despite lower volume.
 - Network-related incidents have the **longest resolution times**.
 - App Support handles the **highest ticket volume**, indicating potential workload imbalance.
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 - Introduce a **dedicated on-call rotation for P1 incidents**
 - Improve **proactive network monitoring**
 - Rebalance workloads across support teams to reduce burnout and delays
-
----
-
-## 📂 Repository Structure
