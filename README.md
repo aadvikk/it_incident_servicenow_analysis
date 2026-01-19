@@ -15,11 +15,11 @@ The objective of this project is to analyze IT incident data to identify SLA bre
 *Final Business Insights*
 
 Key Findings:
-SLA breaches are highest in Network team
-P1 incidents show unexpected breaches
-SLA adherence needs improvement in high-impact incidents
+- SLA breaches are highest in Network team
+- P1 incidents show unexpected breaches
+- SLA adherence needs improvement in high-impact incidents
 
 Recommendations:
-Improve escalation for P1 incidents
-Review workload distribution
-Strengthen monitoring & automation in ServiceNow
+- Improve escalation for P1 incidents
+- Review workload distribution
+- Strengthen monitoring & automation in ServiceNow
